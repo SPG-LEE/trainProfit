@@ -1,0 +1,17 @@
+server:
+  port: 8944
+  undertow:
+    max-http-post-size: 31457280
+spring:
+  application:
+    name: trainProfit
+  cloud:
+    config:
+      enabled: false
+  main:
+    banner-mode: "off"
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://aiqier:Aiqier888@127.0.0.1:8761/eureka/
